@@ -68,9 +68,9 @@ class PostDetail extends control{
 			}
 		}
 		else{
-			$innerhtml_1 ='<div class="row-fluid commentbox" style="width:95%;"><div class="span9" style="text-align:left;padding-right:5px;word-wrap:break-word; overflow:hidden"><i class="icon-user"></i> <span style="color:#993377;">';
+			$innerhtml_1 ='<div class="row-fluid commentbox" style="width:95%;"><div class="span9" style="text-align:left;padding-right:5px;word-wrap:break-word; overflow:hidden"><i class="icon-user"></i> <span>';
 			$innerhtml_2 = '</span>: <span>';
-			$innerhtml_3= '</span></div><div class="span2" style="text-align:right;"><small style="color:#999999">';
+			$innerhtml_3= '</span></div><div class="span3" style="text-align:right;"><small style="color:#999999">';
 		}
 
 		$data['script'] =<<<HTML
