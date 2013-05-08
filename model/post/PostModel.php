@@ -160,13 +160,19 @@ class PostModel{
 
 	}
 
-	public function newPost($title,$content,$photoList=array())
+	public function newPost($title,$content,$date,$photoList=array())
 	{
 		$this->PostD->setCollection('post');
 		if(!empty($photoList))
 			$type = 1;
 		else
 			$type = 2;
+		if(isset($date))
+		{
+			$postTime = strtotime($date);
+			if($postTime<=0)
+				$postTime = time();
+		}
 		$doc = array(
 			'title'=>$title,
 			'content'=>$content,
@@ -174,8 +180,8 @@ class PostModel{
 			'type'=>$type,
 			'status'=>1,
 			'tags'=>array(),
-			'createtime'=>time(),
-			'uptime'=>time(),
+			'createtime'=>$postTime,
+			'uptime'=>$postTime,
 			'comment_num'=>0,
 			'like_num'=>0,
 		);

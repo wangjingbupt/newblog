@@ -81,6 +81,8 @@ $num = $cursor->count();
 				<legend>New Blog</legend>
 					<label>标题</label>
 					<input type="text" placeholder="" name='post_title' id='post_title' class="input-xxlarge">
+					<label>日期</label>
+					<input type="text" placeholder="" name='post_date' id='post_date' class="input-xxlarge">
 					<label>正文</label>
 					<div class="box">
 						<div class="pro_tools" id="testSaveButtons"></div>
