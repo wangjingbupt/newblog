@@ -12,7 +12,8 @@ class PhotoModel{
 	{
 		include(ROOT.'/weibo/config.php');
 		include(ROOT.'/weibo/saetv2.ex.class.php');
-		$token = '2.00BpT76C0NX5Yg03649a3e010NxkyI';
+		//$token = '2.00BpT76C0NX5Yg03649a3e010NxkyI';
+		$token = '2.006ZRr8D0NX5Yg0b6532e47eL4BNYD';
 
 		$c = new SaeTClientV2( WB_AKEY , WB_SKEY , $token );
 
@@ -20,7 +21,6 @@ class PhotoModel{
 			return false;
 
 		$tmpFile = UPLOAD_TMP_DIR . $files['name'];
-
 		if (!move_uploaded_file($files['tmp_name'],$tmpFile))
 			return false;
 
