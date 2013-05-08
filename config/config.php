@@ -23,6 +23,7 @@ define('CONTROLLER_WEIBO', CONTROLLER."/weibo");
 define('CONTROLLER_CALLBACK', CONTROLLER."/callback");
 define('CONTROLLER_DUSTBIN', CONTROLLER."/dustbin");
 define('CONTROLLER_LOGIN', CONTROLLER."/login");
+define('CONTROLLER_ABOUT', CONTROLLER."/about");
 
 define('VIEW_POST', VIEW."/post");
 define('VIEW_COMMENT', VIEW."/comment");
