@@ -195,7 +195,7 @@ function postdata(){                              //提交数据函数
 	$.ajax({                                                  //调用jquery的ajax方法   
 type: "POST",                                      //设置ajax方法提交数据的形式   
 url: "/add",                                       //把数据提交到ok.php   
-data: "post_title="+$("#post_title").val()+"&post_content="+window.editor1.operation.submit(),     //输入框writer中的值作为提交的数据   
+data: "post_title="+$("#post_title").val()+"&post_date="+$("#post_date").val()+"&post_content="+window.editor1.operation.submit(),     //输入框writer中的值作为提交的数据   
 success: function(msg){                  //提交成功后的回调，msg变量是ok.php输出的内容。   
 var dataObj=eval("("+msg+")");
 if(dataObj.code == 'ok')
