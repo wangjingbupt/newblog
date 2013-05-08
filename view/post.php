@@ -162,9 +162,9 @@ public function comment($comments,$post=array())
 						<label>评论</label>
 						<textarea rows="2" id='cms_content' name='cms_content'  class='span12'  placeholder="Say something…"></textarea>
 					</div>
-				<div class="span2 offset7" style='text-align:right;'>
+				<div class="span2 offset9" style='text-align:right;'>
 				<input type='hidden' name="blog_id" id="blog_id" value="$blog_id" />
-				<button type="submit" name="cms_button" id="cms_button" class="btn btn-inverse btn-small">博主是大美女</button>
+				<button type="submit" name="cms_button" id="cms_button" class="btn btn-inverse btn-small">走你</button>
 				</div>
 				</div>
 			<div id='cms_box' name='cms_box'>
