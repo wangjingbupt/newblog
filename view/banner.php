@@ -76,7 +76,7 @@ HTML;
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li <?php echo $data['activeHome'];?>  ><a href="/" >Home</a></li>
-              <li <?php echo $data['activeAbout'];?>  ><a href="/About" >About</a></li>
+              <li <?php echo $data['activeAbout'];?>  ><a href="/about" >About</a></li>
             </ul>
           </div><!--/.nav-collapse -->
 				<!--	<?php// echo $login; ?> -->
