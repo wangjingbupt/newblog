@@ -10,7 +10,7 @@ class PostAdd extends control{
 		
 		if($GLOBALS['LOGIN_DATA']['is_admin'] !=1 )
 		{
-			return false;
+			//return false;
 		}
 
 		if($this->blogContent == '' )
