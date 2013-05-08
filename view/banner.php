@@ -79,7 +79,7 @@ HTML;
               <li <?php echo $data['activeAbout'];?>  ><a href="/About" >About</a></li>
             </ul>
           </div><!--/.nav-collapse -->
-					<?php echo $login; ?>
+				<!--	<?php// echo $login; ?> -->
         </div>
       </div></div>
     </div>
