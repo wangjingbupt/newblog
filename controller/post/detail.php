@@ -77,11 +77,11 @@ class PostDetail extends control{
 		
 
 <script type="text/javascript">  
-$(document).ready(function(){         //DOM的onload事件处理函数   
+//$(document).ready(function(){         //DOM的onload事件处理函数   
 		$("#cms_button").click(function(){           //当按钮button被点击时的处理函数   
 			postdata();                                       //button被点击时执行postdata函数   
 			});   
-		});   
+	//	});   
 function postdata(){                              //提交数据函数   
 	$.ajax({                                                  //调用jquery的ajax方法   
 type: "POST",                                      //设置ajax方法提交数据的形式   
