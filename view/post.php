@@ -153,6 +153,7 @@ public function comment($comments,$post=array())
 	$html=<<<HTML
 			<div class="well">
 				<div class="row-fluid" style="width:95%;margin:0 auto;" id = 'comment'>
+				<div id='comment_notice'></div>
 					<legend>评论</legend>
 					<div class="span$l">
 						<label>昵称</label>

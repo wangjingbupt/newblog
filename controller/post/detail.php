@@ -93,14 +93,16 @@ if(dataObj.code == 'ok')
 {
 	var insertText ='$innerhtml_1'+dataObj.data.user_name+'$innerhtml_2'+dataObj.data.content+'$innerhtml_3'+dataObj.data.pubtime+'</small></div></div>';
 	document.getElementById("cms_box").innerHTML = insertText+document.getElementById("cms_box").innerHTML;
-	var insertText ='<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>评论成功!</strong></div>'
-	document.getElementById("comment").innerHTML = insertText+document.getElementById("comment").innerHTML;
+	var insertText1 ='<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>评论成功!</strong></div>';
+	document.getElementById("comment_notice").innerHTML = insertText1;
 	document.getElementById("cms_num").innerHTML =parseInt(document.getElementById("cms_num").innerHTML)+1;
+	document.getElementById("cms_content").value = '';
+	
 }
 else
 {
 	var insertText ='<div class="alert alert-error fade in"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>评论失败!</strong></div>'
-	document.getElementById("comment").innerHTML = insertText+document.getElementById("comment").innerHTML;
+	document.getElementById("comment_notice").innerHTML = insertText;
 	
 }
 
