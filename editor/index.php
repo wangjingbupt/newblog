@@ -17,7 +17,7 @@ $num = $cursor->count();
 	<head>
 
     <meta charset="utf-8">
-    <title>LXsnow's blog</title>
+    <title>Erik's blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -66,7 +66,7 @@ $num = $cursor->count();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <span class="brand" style='color:#ffffff'> LXSnow</span>
+          <span class="brand" style='color:#ffffff'> Erik's</span>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active" ><a href="/">Home</a></li>
