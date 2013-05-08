@@ -103,10 +103,10 @@ else
 	document.getElementById("comment").innerHTML = insertText+document.getElementById("comment").innerHTML;
 	
 }
-return false;
 
 }   
 });   
+return false;
 }   
 </script>  
 HTML;
