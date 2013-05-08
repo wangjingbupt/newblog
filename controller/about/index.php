@@ -1,4 +1,6 @@
 <?php
+include(CONTROLLER."/control.php");
+
 function aboutDispatch()
 {
 	$className = 'AboutPage';
