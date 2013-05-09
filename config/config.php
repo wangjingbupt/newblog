@@ -34,10 +34,10 @@ define('VIEW_DUSTBIN', VIEW."/dustbin");
 
 
 define('UPLOAD_TMP_DIR', "/tmp/img/");
-define('REDIRECT_URL', "http://wangjing.me/");
+define('REDIRECT_URL', "http://sleepwalker.pro/");
 
 define('IMG_PATH',ROOT.'/../images/myblog/');
-define('IMG_URL','http://img.wangjing.me/');
+define('IMG_URL','http://img.sleepwalker.pro/');
 
 define( "WB_AKEY" , '628803579' );
 define( "WB_SKEY" , '53cc7c93724ae3fa4a39391f0d76d78c' );
