@@ -9,13 +9,10 @@ class ViewAbout {
 		include(VIEW.'/banner.php');
 		$html =<<<HTML
 		<div class="container"><div class="row-fluid"><div class = "span12">
-		<br/>
 		<blockquote>
-			<p class="lead">All the moments will be lost in time,like tears in rain</p>
+			<p class="lead">All those moments will be lost in time,like tears in rain.</p>
 			<small><cite title="Source Title">Blade Runner</cite></small>
 		</blockquote>
-		<br/>
-		<br/>
 		<p>学习、工作、生活在北京。混迹在互联网，干着技术活。ps.不会修电脑！</p>
 		<p >PHP\Python\Shell\awk</p>
 		<p >Mysql\Redis\Memcached\Mongodb</p>
