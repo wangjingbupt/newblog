@@ -14,9 +14,9 @@ class ViewAbout {
 			<small><cite title="Source Title">Blade Runner</cite></small>
 		</blockquote>
 		<p>学习、工作、生活在北京。混迹在互联网，干着技术活。ps.不会修电脑！</p>
-		<p >PHP\Python\Shell\awk</p>
-		<p >Mysql\Redis\Memcached\Mongodb</p>
-		<p >Nginx\Apache\Lighttp\Squid</p>
+		<p >PHP \ Python \ Shell \ awk</p>
+		<p >Mysql \ Redis \ Memcached \ Mongodb</p>
+		<p >Nginx \ Apache \ Lighttp \ Squid</p>
 		<p>最近喜欢上NLP和Network</p>
 		<br/>
 		<p class="text-info">Work@百度音乐</p>
