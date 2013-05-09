@@ -7,7 +7,7 @@ class ViewAbout {
 
 		include(VIEW.'/header.php');
 		include(VIEW.'/banner.php');
-		$html =<<<
+		$html =<<<HTML
 		<div class="container"><div class="row-fluid"><div class = "span12">
 		<p class="lead">All the monments will be lost in time,like tears in rain</p>
 		<p></p>
@@ -28,7 +28,7 @@ class ViewAbout {
 		<p></p>
 		<p>业余跑步爱好者，eason fans，尤文死忠，爱音乐、爱运动。</p>
 		</div></div></div>
-<<<;
+HTML;
 		echo $html;
 		include(VIEW.'/footer.php');
 	}
