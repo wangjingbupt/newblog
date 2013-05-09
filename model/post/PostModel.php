@@ -68,10 +68,10 @@ class PostModel{
 		$e_date_y = intval(substr($date,0,4));
 		$e_date_m = $s_date_m+1;
 
-		if($d_date_m > 12)
+		if($e_date_m > 12)
 		{	
-			$d_date_m -=12;
-			$d_date_y +=1;
+			$e_date_m -=12;
+			$e_date_y +=1;
 		}
 		if($s_date_m< 10)
 			$s_date_m = '0'.$s_date_m;
