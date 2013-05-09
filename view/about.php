@@ -28,7 +28,7 @@ class ViewAbout {
 		<p>Email: wangjingbupt@gmail.com</p>
 		<p>Weibo: <a href='http://weibo.com/811161987'>@京京道听途说</a></p>
 		<br/>
-		<p>业余跑步爱好者，eason fans，尤文死忠，爱音乐、爱运动。</p>
+		<p>业余跑步爱好者，eason fans，尤文死忠，爱音乐，爱运动。</p>
 		</div></div></div>
 HTML;
 		echo $html;
