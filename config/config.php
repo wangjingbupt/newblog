@@ -31,6 +31,9 @@ define('VIEW_PHOTO', VIEW."/photo");
 define('VIEW_WEIBO', VIEW."/weibo");
 define('VIEW_DUSTBIN', VIEW."/dustbin");
 
+//首页每页博文数
+define('POST_PAGE_NUM', 15);
+
 
 
 define('UPLOAD_TMP_DIR', "/tmp/img/");

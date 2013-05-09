@@ -1,7 +1,7 @@
 <?php
 class PostModel{
 
-	private $_postLimit = 15;
+	private $_postLimit = POST_PAGE_NUM;
 	private $_postDelLimit = 20;
 
 	public function __construct() {
@@ -20,6 +20,15 @@ class PostModel{
 		
 		return self::mongoObj2Array($cursor);
 	}	
+
+	public function getPostCount()
+	{
+		$this->PostD->setCollection('post');
+		$cursor = $this->PostD->find(array('status'=>1));
+		$count = intval($cursor->count());
+
+		return $count;
+	}
 
 	public function getDelPosts($page=0)
 	{

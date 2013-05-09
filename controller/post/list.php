@@ -14,6 +14,12 @@ class PostList extends control{
 	public function action(){
 		$postModel = new PostModel();
 		$datas['post'] = $postModel->getPostList($this->page);
+		$postNum = $postModel->getPostCount();
+		if($postNum > POST_PAGE_NUM * ($this->page+1))
+			$datas['hasNext'] = True;
+
+		if($this->page > 0)
+			$datas['hasPrev'] = True;
 
 		$datas['recent'] = $postModel->getPostList();
 
