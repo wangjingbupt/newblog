@@ -13,7 +13,7 @@ class ViewAbout {
 			<p class="lead">All those moments will be lost in time,like tears in rain.</p>
 			<small><cite title="Source Title">Blade Runner</cite></small>
 		</blockquote>
-		<p>学习、工作、生活在北京。混迹在互联网，干着技术活。ps.不会修电脑！</p>
+		<p>学习、工作、生活在北京。混迹在互联网，干着技术活。ps. 不会修电脑</p>
 		<p >PHP \ Python \ Shell \ awk</p>
 		<p >Mysql \ Redis \ Memcached \ Mongodb</p>
 		<p >Nginx \ Apache \ Lighttp \ Squid</p>
